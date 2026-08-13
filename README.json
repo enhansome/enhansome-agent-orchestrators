@@ -1,0 +1,2538 @@
+{
+  "items": [
+    {
+      "description": "Run and supervise several agent sessions side by side from a terminal — tmux panes, git worktrees, and TUI dashboards.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "herdr",
+          "description": "Agent-aware multiplexer with persistent workspaces, tabs, panes, and status detection for CLI coding agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T06:36:27Z",
+            "owner": "herdrdev",
+            "repo": "herdr",
+            "stars": 28393
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cmux",
+          "description": "Ghostty-based macOS terminal with vertical tabs and per-agent notifications, built for keeping many concurrent sessions legible.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-13T07:21:00Z",
+            "owner": "manaflow-ai",
+            "repo": "cmux",
+            "stars": 26000
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-squad",
+          "description": "Runs each agent as a detached background session with its own worktree, so work continues after you close the pane. Claude Code, Codex, OpenCode, Amp.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-30T16:45:40Z",
+            "owner": "smtg-ai",
+            "repo": "claude-squad",
+            "stars": 8303
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-of-empires",
+          "description": "Pairs a TUI with a matching web view, so the same sessions stay reachable from a phone. Claude Code, Codex, OpenCode, Gemini, Mistral Vibe.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T21:55:57Z",
+            "owner": "agent-of-empires",
+            "repo": "agent-of-empires",
+            "stars": 3060
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dmux",
+          "description": "Dev agent multiplexer pairing coding agents with git worktrees over tmux.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-07-09T03:18:48Z",
+            "owner": "standardagents",
+            "repo": "dmux",
+            "stars": 1737
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-deck",
+          "description": "One TUI covering sessions across Claude Code, Codex, Gemini, and OpenCode, with live status and resume for each.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-10T21:57:22Z",
+            "owner": "asheshgoplani",
+            "repo": "agent-deck",
+            "stars": 716
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tmux-ide",
+          "description": "Turns any project into a tmux IDE from a checked-in , including preset agent-team layouts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T03:31:36Z",
+            "owner": "wavyrai",
+            "repo": "tmux-ide",
+            "stars": 537
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agterm",
+          "description": "Native macOS terminal with named workspaces, a live dashboard, attention states, and a scriptable control API.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-13T06:52:06Z",
+            "owner": "umputun",
+            "repo": "agterm",
+            "stars": 458
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agentbox",
+          "description": "Gives each agent its own sandboxed VM — local Docker or cloud via Hetzner, Daytona, Vercel, or E2B — with sub-second checkpoint starts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-03T22:10:45Z",
+            "owner": "madarco",
+            "repo": "agentbox",
+            "stars": 349
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "amux",
+          "description": "Minimal TUI for spawning parallel coding agents in git worktrees.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T03:23:45Z",
+            "owner": "andyrewlee",
+            "repo": "amux",
+            "stars": 146
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "openkanban",
+          "description": "Kanban board for orchestrating coding agents, rendered entirely in the terminal.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-06-12T16:49:41Z",
+            "owner": "TechDufus",
+            "repo": "openkanban",
+            "stars": 136
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "thurbox",
+          "description": "TUI orchestrator with remote SSH sessions, inter-session messaging, and a native code-review view. Works with any CLI agent you define.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T02:08:17Z",
+            "owner": "Thurbeen",
+            "repo": "thurbox",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-console",
+          "description": "Rust TUI that finds Codex and Claude Code sessions from the providers' own transcripts, including ones started elsewhere, and resumes their native UI rather than replacing it. No tmux or worktrees.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-04T10:26:54Z",
+            "owner": "buhuipao",
+            "repo": "agent-console",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "repomon",
+          "description": "Rust TUI that supervises a fleet across many repositories at once, in durable tmux sessions you can approve from your phone.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-27T19:47:35Z",
+            "owner": "AliHamzaAzam",
+            "repo": "repomon",
+            "stars": 12
+          }
+        }
+      ],
+      "title": "Parallel Coding Agents — Terminal (TUI/CLI)"
+    },
+    {
+      "description": "The same parallel-sessions workflow as a desktop app or browser/mobile dashboard, with diff review and merge.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Orca",
+          "description": "Agentic development environment for running a fleet on your own subscription, available on desktop and mobile.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:19:20Z",
+            "owner": "stablyai",
+            "repo": "orca",
+            "stars": 44295
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "t3code",
+          "description": "Harness control surface available as web, mobile, and desktop app. Claude Code, Codex, Cursor, Grok Build, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:17:49Z",
+            "owner": "pingdotgg",
+            "repo": "t3code",
+            "stars": 18490
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Aperant",
+          "description": "Runs up to 12 agent terminals with a self-validating QA loop and automatic conflict resolution when merging back to main.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-14T08:27:00Z",
+            "owner": "AndyMik90",
+            "repo": "Aperant",
+            "stars": 14506
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "qm",
+          "description": "Multiplayer harness where each teammate gets an isolated workspace to run agents independently, driven from Slack or the web.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T23:54:05Z",
+            "owner": "yc-software",
+            "repo": "qm",
+            "stars": 13302
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "superset",
+          "description": "Code editor built around running many agents on your machine at once.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:08:46Z",
+            "owner": "superset-sh",
+            "repo": "superset",
+            "stars": 12879
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "humanlayer",
+          "description": "Human-in-the-loop control for coding agents on hard problems; the repo notes its code is now largely deprecated in favor of a rebuild.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-19T03:27:53Z",
+            "owner": "humanlayer",
+            "repo": "humanlayer",
+            "stars": 11253
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-orchestrator",
+          "description": "Agent IDE for fleets that plans the work, spawns the agents, then fixes CI failures and merge conflicts without being asked.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T06:51:43Z",
+            "owner": "Untrivial-ai",
+            "repo": "agent-orchestrator",
+            "stars": 9462
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenChamber",
+          "description": "Open-source workspace for running, supervising, and reviewing AI coding work across desktop, browser, editor, and mobile, with parallel model runs and per-run worktrees.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:22:33Z",
+            "owner": "openchamber",
+            "repo": "openchamber",
+            "stars": 8631
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Emdash",
+          "description": "Agentic development environment running parallel agents against any model provider.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T15:00:53Z",
+            "owner": "generalaction",
+            "repo": "emdash",
+            "stars": 5398
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "automaker",
+          "description": "Describe features on a Kanban board and agents implement them in isolated worktrees, running tests and committing as they go.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-22T16:38:23Z",
+            "owner": "AutoMaker-Org",
+            "repo": "automaker",
+            "stars": 3215
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "collaborator",
+          "description": "Arranges terminals, editors, and files as tiles on an infinite pan-and-zoom canvas instead of tabs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-08T14:53:31Z",
+            "owner": "collabs-inc",
+            "repo": "collab-public",
+            "stars": 2851
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CodeNomad",
+          "description": "Desktop and web workspace around the OpenCode CLI whose SideCars embed local tools like VS Code and terminals as tabs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T03:28:51Z",
+            "owner": "NeuralNomadsAI",
+            "repo": "CodeNomad",
+            "stars": 2461
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "supacode",
+          "description": "Native macOS command center for worktree-per-agent development.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-12T12:49:45Z",
+            "owner": "supabitapp",
+            "repo": "supacode",
+            "stars": 2265
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mux",
+          "description": "Desktop app for isolated, parallel agentic development.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T00:20:58Z",
+            "owner": "coder",
+            "repo": "mux",
+            "stars": 1966
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bb",
+          "description": "Self-controlling agentic IDE that orchestrates multiple coding agents in live threads you can follow, steer, or hand off, driven from a desktop app, web app, CLI, or HTTP API.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:16:21Z",
+            "owner": "get-bb",
+            "repo": "bb",
+            "stars": 1800
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "synara",
+          "description": "GUI desktop workspace for running and managing agents across local projects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T23:19:04Z",
+            "owner": "Emanuele-web04",
+            "repo": "synara",
+            "stars": 1543
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nimbalyst",
+          "description": "Visual workspace pairing parallel worktree sessions with kanban and direct visual editing. Claude Code, Codex, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T04:54:09Z",
+            "owner": "nimbalyst",
+            "repo": "nimbalyst",
+            "stars": 1471
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jean",
+          "description": "Desktop and web app for orchestrating agents across multiple projects and their git worktrees. Claude, Codex, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T22:00:28Z",
+            "owner": "coollabsio",
+            "repo": "jean",
+            "stars": 1179
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Traycer",
+          "description": "Bring-your-own-agent workspace running many sessions in parallel with context shared across models and providers, plus agent-to-agent messaging, shareable boards, and cross-device sync.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:21:42Z",
+            "owner": "traycerai",
+            "repo": "traycer",
+            "stars": 1171
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "takopi",
+          "description": "Telegram bridge that puts Codex, Claude Code, OpenCode, and Pi sessions in a chat thread.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-25T18:54:43Z",
+            "owner": "banteg",
+            "repo": "takopi",
+            "stars": 1040
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IM.codes",
+          "description": "Mobile and web control layer built for away-from-desk continuation, with terminal access, git views, localhost preview, and scheduled tasks. Claude Code, Codex, Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T17:26:30Z",
+            "owner": "im4codes",
+            "repo": "imcodes",
+            "stars": 1015
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "parallel-code",
+          "description": "Desktop app running Claude Code, Codex, and Gemini CLI side by side in isolated worktrees, with a built-in diff viewer and one-click merge.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T12:58:10Z",
+            "owner": "johannesjo",
+            "repo": "parallel-code",
+            "stars": 969
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ai-maestro",
+          "description": "Dashboard spanning multiple machines, adding memory search, code-graph queries, and agent-to-agent messaging. Claude, Aider, Cursor.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-07T18:21:48Z",
+            "owner": "23blocks-OS",
+            "repo": "ai-maestro",
+            "stars": 745
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Waku",
+          "description": "Native macOS desktop app for working with local coding agents, keeping projects, sessions, and transcripts on your machine. Supports Amp, Claude Code, Codex CLI, Cursor CLI, Grok Build, OpenCode, and Pi.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T21:38:07Z",
+            "owner": "egoist",
+            "repo": "waku",
+            "stars": 662
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kandev",
+          "description": "Kanban workbench whose multi-step workflows assign a different agent per step behind human gates, running locally, in Docker, over SSH, or in cloud executors.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:13:16Z",
+            "owner": "kdlbs",
+            "repo": "kandev",
+            "stars": 601
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dorothy",
+          "description": "Desktop app combining agent orchestration with automations, Kanban management, and MCP servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-07T13:21:25Z",
+            "owner": "Charlie85270",
+            "repo": "Dorothy",
+            "stars": 336
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aizen",
+          "description": "macOS workspace that organizes worktrees, environments, and agent sessions per project.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-01T13:11:19Z",
+            "owner": "vivy-company",
+            "repo": "aizen",
+            "stars": 297
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vibe-tree",
+          "description": "One git worktree per agent, delivered as desktop, web, and CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-25T19:30:49Z",
+            "owner": "sahithvibudhi",
+            "repo": "vibe-tree",
+            "stars": 264
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diri",
+          "description": "Native macOS app running Claude Code, Codex, Cursor, Gemini, and shells in parallel across git worktrees or remote hosts, with live status, session persistence across restarts, a menu-bar rollup, and an MCP server for agents to spawn others.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T07:04:10Z",
+            "owner": "cristicretu",
+            "repo": "diri",
+            "stars": 255
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jat",
+          "description": "Visual dashboard combining live sessions, task management, code editor, and terminal, with parallel swarm workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Svelte",
+            "last_commit": "2026-08-12T15:39:04Z",
+            "owner": "joewinke",
+            "repo": "jat",
+            "stars": 249
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Alethe",
+          "description": "Local-first desktop workspace where agents and shells run as real PTYs in split panes and custom grids across projects, surviving pane close and app restart. Suspend idle groups to reclaim memory and resume with scrollback intact. Claude Code, Codex, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T06:58:04Z",
+            "owner": "Kc1t",
+            "repo": "alethe-agents",
+            "stars": 221
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "constellagent",
+          "description": "macOS app giving each agent its own terminal, editor, and git worktree in a single window.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-05T23:34:13Z",
+            "owner": "owengretzinger",
+            "repo": "constellagent",
+            "stars": 214
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ivy-tendril",
+          "description": "Drives agents through a plan-based lifecycle with verification gates, self-improving memory, and human checkpoints. Claude Code, Codex, Antigravity, Copilot, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-08-12T21:12:50Z",
+            "owner": "Ivy-Interactive",
+            "repo": "Ivy-Tendril",
+            "stars": 170
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Proliferate",
+          "description": "Agent IDE that runs sessions locally or in the cloud and lets you build reusable workflows from them.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:18:17Z",
+            "owner": "proliferate-ai",
+            "repo": "proliferate",
+            "stars": 161
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "clideck",
+          "description": "Chat-app-style dashboard with autopilot routing between agents and full control from a phone. Claude Code, Codex, Gemini CLI, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-12T05:23:17Z",
+            "owner": "rustykuntz",
+            "repo": "clideck",
+            "stars": 150
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ouijit",
+          "description": "Kanban board and terminals wired together by lifecycle hooks, scripts, and a session-aware CLI, so a task runs by hand, on a script, or delegated to the agent. Per-task worktrees, optional VM sandboxing. Claude Code, Codex, Pi, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T00:56:30Z",
+            "owner": "ouijit",
+            "repo": "ouijit",
+            "stars": 150
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Claude Command Center (CCC)",
+          "description": "Local dashboard for spawning, monitoring, and resuming sessions across Claude Code, Codex, Cursor, Antigravity, and Kilo Code.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T03:42:37Z",
+            "owner": "amirfish1",
+            "repo": "claude-command-center",
+            "stars": 117
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tlbx",
+          "description": "Self-hosted browser workspace holding persistent real PTY sessions on your own machines, reachable from any browser or phone.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-08-12T12:18:22Z",
+            "owner": "tlbx-ai",
+            "repo": "tlbx",
+            "stars": 101
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Garcon",
+          "description": "Self-hosted browser and mobile workspace with diff review, Git/PR workflows, mobile approvals, scheduling, and cross-agent transfers. Seven CLI agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T15:40:18Z",
+            "owner": "cfal",
+            "repo": "garcon",
+            "stars": 55
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Better Agent",
+          "description": "Local web workspace with persistent state, approvals, and restart recovery for native Claude, Codex, and Gemini sessions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T02:26:38Z",
+            "owner": "ofekron",
+            "repo": "better-agent",
+            "stars": 54
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "clave",
+          "description": "Native macOS app with split and grid layouts, session groups, SSH remote sessions, and usage analytics for Claude Code.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T17:01:37Z",
+            "owner": "codika-io",
+            "repo": "clave",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tempest",
+          "description": "Tauri desktop ADE running CLI agents in parallel isolated worktrees, with a shared local code-knowledge graph that cuts token use across sessions, plus live status and built-in diff/PR review.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T14:58:09Z",
+            "owner": "tempestai-dev",
+            "repo": "tempest",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vibecraft",
+          "description": "RTS-style workspace for commanding coding agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-19T10:29:18Z",
+            "owner": "rayzhudev",
+            "repo": "vibecraft",
+            "stars": 31
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GraphCode",
+          "description": "macOS app that wires agent sessions into a graph: each node is a live terminal you can attach to mid-run, each edge a hand-off, message, or spawn that fires while you're away. Claude Code, Copilot CLI, Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-13T05:34:29Z",
+            "owner": "scgopi",
+            "repo": "GraphCode",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AGX",
+          "description": "Wake-work-sleep checkpointing keeps a persistent agent team on long objectives, with human gates between cycles.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-06T05:35:18Z",
+            "owner": "ramarlina",
+            "repo": "agx",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "octomux",
+          "description": "Local dashboard with a kanban fleet view, one unified permission inbox across agents, and in-app diff review.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T21:49:35Z",
+            "owner": "ShreyPaharia",
+            "repo": "octomux",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fletch",
+          "description": "Native macOS IDE that seals each agent in its own repo clone under Seatbelt or Docker, serves each a shared symbol and call-graph index over MCP, and gates every step on tests or your approval. Claude Code, Codex, Cursor, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T19:36:45Z",
+            "owner": "fwdai",
+            "repo": "fletch",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-squid",
+          "description": "Browser UI organized into named lanes (), with context shared across agents and a realtime quota gauge.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-13T00:24:22Z",
+            "owner": "agent-squid",
+            "repo": "squid",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "intentic",
+          "description": "Browser and mobile workspace where every agent gets a persistent Docker sandbox on a machine you own plus a git worktree of its own, reached over an outbound-only Cloudflare tunnel, so runs keep going after you close the tab. Plan mode, per-hunk diff review, an environment Dockerfile the agent proposes and you approve, credential capabilities injected per turn, and schedule, webhook or event triggers. Claude Code, Codex, Grok, Kimi Code, Gemini. MIT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T04:46:54Z",
+            "owner": "intentic",
+            "repo": "intentic",
+            "stars": 8
+          }
+        }
+      ],
+      "title": "Parallel Coding Agents — Desktop & Web"
+    },
+    {
+      "description": "Systems where multiple specialized agents actively coordinate, communicate, and delegate toward a shared goal.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "paperclip",
+          "description": "Self-hosted platform where agents wake on heartbeats to claim tickets, governed by org charts, budgets, and approval gates.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:11:39Z",
+            "owner": "paperclipai",
+            "repo": "paperclip",
+            "stars": 77893
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ruflo",
+          "description": "Meta-harness for deploying coordinated swarms and conversational multi-agent workflows. Formerly claude-flow.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:20:15Z",
+            "owner": "ruvnet",
+            "repo": "ruflo",
+            "stars": 67751
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "buzz",
+          "description": "Agents are first-class members of shared channels on a Nostr relay you own, with their own keys and audit trails. Claude Code, Codex, Goose.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T07:09:26Z",
+            "owner": "block",
+            "repo": "buzz",
+            "stars": 26905
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gastown",
+          "description": "Scales to 20-30 agents with a coordinator, git-backed issue tracking, health watchdogs, and a Bors-style merge queue.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T01:48:44Z",
+            "owner": "gastownhall",
+            "repo": "gastown",
+            "stars": 17593
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ClawTeam",
+          "description": "Agents spawn and manage their own teammates from one command, coordinating through file-based or P2P inboxes across tmux worktrees.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-09T07:25:56Z",
+            "owner": "HKUDS",
+            "repo": "ClawTeam",
+            "stars": 5486
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude_codex_bridge",
+          "description": "Workspace for mixing different vendors' CLI agents in one visible collaboration session.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T05:45:25Z",
+            "owner": "SeemSeam",
+            "repo": "claude_codex_bridge",
+            "stars": 3406
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agentsmesh",
+          "description": "Remote AI workstations with PTY sandboxes and worktree isolation, coordinating across channels and pod bindings. Claude Code, Codex, Gemini CLI, Aider, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T11:45:02Z",
+            "owner": "AgentsMesh",
+            "repo": "AgentsMesh",
+            "stars": 2306
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agent Teams",
+          "description": "Desktop app where you give high-level commands to autonomous coding-agent teams across Claude Code, Codex, OpenCode, Cursor, Grok, GitHub Copilot, Kiro, Z.AI, MiniMax, Kimi, 200+ models, and 75+ LLM providers. Agents coordinate through inter-agent messaging, Kanban tasks, and built-in code review.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T06:33:33Z",
+            "owner": "777genius",
+            "repo": "agent-teams-ai",
+            "stars": 1916
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "scion",
+          "description": "Orchestration testbed running agents in parallel isolated containers with dynamic coordination and normalized telemetry.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T02:38:11Z",
+            "owner": "GoogleCloudPlatform",
+            "repo": "scion",
+            "stars": 1669
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "multi-agent-shogun",
+          "description": "Shogun to karo to ashigaru hierarchy running up to 10 agents over tmux with no coordination API cost.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-06T08:08:18Z",
+            "owner": "yohey-w",
+            "repo": "multi-agent-shogun",
+            "stars": 1412
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Orkas",
+          "description": "A commander agent decomposes goals and dispatches specialists with isolated skills and memory. Claude Code, Codex, OpenCode, Cline.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T10:33:04Z",
+            "owner": "Orkas-AI",
+            "repo": "Orkas",
+            "stars": 1178
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fusion",
+          "description": "Multi-node orchestrator with a kanban board, plan-review-execute gates, per-task worktrees, and hierarchical missions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T05:41:25Z",
+            "owner": "Runfusion",
+            "repo": "Fusion",
+            "stars": 1104
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "loki-mode",
+          "description": "PRD-to-deployed-product SDLC with 41 agents in 8 swarms, nine quality gates, and blind three-reviewer code review. Source-available under BUSL-1.1.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-12T19:13:56Z",
+            "owner": "asklokesh",
+            "repo": "loki-mode",
+            "stars": 1038
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hcom",
+          "description": "Lets agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity, Cursor, OpenCode, Kilo, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-09T16:52:44Z",
+            "owner": "aannoo",
+            "repo": "hcom",
+            "stars": 444
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-kanban",
+          "description": "Leader-worker task board with cryptographic agent identity. Claude Code, Codex, Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-28T17:57:18Z",
+            "owner": "saltbo",
+            "repo": "agent-kanban",
+            "stars": 443
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ORCH",
+          "description": "CLI runtime managing agents as typed teams with an explicit state machine and goals. Claude Code, Codex, Cursor.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-01T19:52:18Z",
+            "owner": "oxgeneral",
+            "repo": "ORCH",
+            "stars": 140
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NXTG-Forge Orchestrator",
+          "description": "Coordinates Claude Code, Codex, and Gemini CLI on one shared repo through a research-plan-delegate-adversarial-verify-deploy pipeline, with file locking, knowledge capture, and drift detection. Single Rust binary.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-09T23:34:56Z",
+            "owner": "nxtg-ai",
+            "repo": "forge-orchestrator",
+            "stars": 138
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kodo",
+          "description": "Directs agents through work cycles where a separate agent independently verifies each result. Claude Code, Codex, Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-18T13:54:36Z",
+            "owner": "ikamensh",
+            "repo": "kodo",
+            "stars": 126
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tutti",
+          "description": "Config-driven workflows passing typed artifacts between agents, each in its own worktree.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-28T01:53:51Z",
+            "owner": "nutthouse",
+            "repo": "tutti",
+            "stars": 111
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CompanyHelm",
+          "description": "Distributed orchestrator with task management and direct agent-to-agent conversations.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-29T16:26:13Z",
+            "owner": "CompanyHelm",
+            "repo": "companyhelm",
+            "stars": 73
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "5dive",
+          "description": "Named agents on a shared org chart and backlog hand work to each other and escalate to a human over Telegram. Claude Code, Codex, Grok, Antigravity, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-13T05:54:44Z",
+            "owner": "5dive-ai",
+            "repo": "5dive",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agon",
+          "description": "Orchestrates scientist, coder, and auditor loops from research topic through proposal to experiment.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-02T08:15:58Z",
+            "owner": "AutoResearch-Factory",
+            "repo": "Agon",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shire",
+          "description": "Persistent team workspaces with inter-agent mailboxes and a shared drive. Claude Code, OpenCode, Pi.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-03T15:11:49Z",
+            "owner": "victor36max",
+            "repo": "shire",
+            "stars": 37
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "corellis",
+          "description": "Multi-agent governance framework for OpenClaw — goal decomposition, fleet-wide memory, correction propagation, and approval workflows for 20+ agent fleets.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-04-13T06:31:17Z",
+            "owner": "CorellisOrg",
+            "repo": "Corellis",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "orc",
+          "description": "Lightweight framework that piggybacks your existing CLI setup for planning, task decomposition, worktrees, and review.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-06-21T20:17:44Z",
+            "owner": "spencermarx",
+            "repo": "orc",
+            "stars": 23
+          }
+        }
+      ],
+      "title": "Multi-Agent Swarms"
+    },
+    {
+      "description": "The \"keep running until done\" pattern — a single goal driven through a retry-until-verified loop.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Loop Engineering",
+          "description": "Designs repeatable coding-agent loops around automation, worktrees, skills, state, and verification, with starters and a Loop Ready score for Grok, Claude Code, Codex, and OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-13T03:10:15Z",
+            "owner": "cobusgreyling",
+            "repo": "loop-engineering",
+            "stars": 10301
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ralph-claude-code",
+          "description": "Development loop for Claude Code with exit detection that recognizes when the work is actually finished.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-07-18T02:33:21Z",
+            "owner": "frankbria",
+            "repo": "ralph-claude-code",
+            "stars": 9597
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ralph-orchestrator",
+          "description": "Hat-based orchestration that keeps agents looping until done, as a fuller implementation of the Ralph Wiggum technique.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-25T03:50:59Z",
+            "owner": "mikeyobrien",
+            "repo": "ralph-orchestrator",
+            "stars": 3098
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ralph-tui",
+          "description": "Drives an agent through a task list autonomously, with a TUI for watching the loop.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-13T19:16:05Z",
+            "owner": "subsy",
+            "repo": "ralph-tui",
+            "stars": 2426
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ralphex",
+          "description": "Executes an implementation plan autonomously with a fresh session per task, plus validation, retries, multi-phase review, and automatic commits. Claude Code, Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-10T17:33:48Z",
+            "owner": "umputun",
+            "repo": "ralphex",
+            "stars": 1423
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bernstein",
+          "description": "Keeps no model in the coordination loop, so orchestration costs zero tokens. Verifies with tests and auto-commits across 40+ CLI agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T07:17:18Z",
+            "owner": "sipyourdrink-ltd",
+            "repo": "bernstein",
+            "stars": 853
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fractal",
+          "description": "Loops that recursively delegate separable subtasks to child agents, bounded by configurable depth, cost, and time limits.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-06T15:25:40Z",
+            "owner": "plasma-ai",
+            "repo": "fractal",
+            "stars": 689
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LoopTroop",
+          "description": "An LLM council plans the work, then Ralph-style loops retry failed units with fresh context. Executes via OpenCode worktrees.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T06:39:00Z",
+            "owner": "looptroop-ai",
+            "repo": "LoopTroop",
+            "stars": 118
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MartinLoop",
+          "description": "Caps spend, enforces policy, verifies output, and rolls back failures, leaving inspectable run receipts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:22:38Z",
+            "owner": "Keesan12",
+            "repo": "martin-loop",
+            "stars": 44
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dex",
+          "description": "Human-gated planning, multi-reviewer code review, and dead-end-aware research loops, shipped as cross-platform binaries for 7 CLI backends.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-11T15:17:29Z",
+            "owner": "francescoalemanno",
+            "repo": "dex",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "toryo",
+          "description": "Trust-based delegation with quality ratcheting that commits improvements and reverts regressions. Chains Claude Code, Aider, Gemini CLI, Ollama.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-23T20:58:48Z",
+            "owner": "JesseRWeigel",
+            "repo": "toryo",
+            "stars": 12
+          }
+        }
+      ],
+      "title": "Autonomous Loop Runners"
+    },
+    {
+      "description": "Unattended agents driven by an external source — an issue queue, a work board, or a schedule — that run and sync state back without side-by-side supervision.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "OpenHands",
+          "description": "Self-hostable control center running its own agent or driving Claude Code, Codex, and any Agent Client Protocol agent, on schedules or webhooks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T03:24:05Z",
+            "owner": "OpenHands",
+            "repo": "OpenHands",
+            "stars": 83875
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "multica",
+          "description": "Managed agents platform where you assign tasks, track progress, and let agents compound skills between runs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:23:07Z",
+            "owner": "multica-ai",
+            "repo": "multica",
+            "stars": 45703
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "symphony",
+          "description": "Turns project work into isolated autonomous runs, so teams manage the work rather than supervise the agent.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2026-08-12T18:19:49Z",
+            "owner": "openai",
+            "repo": "symphony",
+            "stars": 26549
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "open-swe",
+          "description": "Invoked from Slack, Linear, or GitHub comments; each task runs in its own cloud sandbox and ends in a draft PR linked to the ticket.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T23:58:14Z",
+            "owner": "langchain-ai",
+            "repo": "open-swe",
+            "stars": 10547
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-code-action",
+          "description": "Anthropic's official GitHub Action, detecting from context whether to answer, review, or implement. Auth via Anthropic API, Bedrock, Vertex, or Foundry.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T20:57:43Z",
+            "owner": "anthropics",
+            "repo": "claude-code-action",
+            "stars": 8610
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gh-aw",
+          "description": "Compiles agentic workflows written in Markdown into GitHub Actions YAML. Read-only by default, with writes only through sanitized safe-outputs. Copilot, Claude, Codex, Gemini.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:22:17Z",
+            "owner": "github",
+            "repo": "gh-aw",
+            "stars": 4921
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "background-agents",
+          "description": "Sessions trigger from a web UI, Slack, GitHub, Linear, webhooks, or cron, run in Modal, Daytona, Vercel, E2B, or OpenComputer sandboxes, and open attributed PRs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:22:55Z",
+            "owner": "ColeMurray",
+            "repo": "background-agents",
+            "stars": 2651
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "run-gemini-cli",
+          "description": "Google's official GitHub Action, running on event or schedule triggers or on demand via and .",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-06T19:29:55Z",
+            "owner": "google-github-actions",
+            "repo": "run-gemini-cli",
+            "stars": 2051
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codex-action",
+          "description": "OpenAI's official GitHub Action, running Codex CLI headlessly under drop-sudo, unprivileged-user, or fully read-only sandboxes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T19:53:56Z",
+            "owner": "openai",
+            "repo": "codex-action",
+            "stars": 1183
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "centaur",
+          "description": "Multiplayer self-hosted agents with Slack-native conversations, Kubernetes sandboxes, shared tools, and durable workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T05:51:30Z",
+            "owner": "paradigmxyz",
+            "repo": "centaur",
+            "stars": 1115
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cyrus",
+          "description": "Watches Linear, GitHub, GitLab, and Slack issues assigned to it, spinning up an isolated worktree per issue. Claude Code, Codex, Cursor, Gemini.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T22:40:09Z",
+            "owner": "cyrusagents",
+            "repo": "cyrus",
+            "stars": 761
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aeon",
+          "description": "Runs unattended on GitHub Actions; dispatches skills to six coding-agent harnesses behind one contract (Claude Code, Grok, Codex, Pi, Vibe, Kimi), with quality scoring, git-persisted memory, a self-healing loop, and reactive triggers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T01:46:25Z",
+            "owner": "aeonfun",
+            "repo": "aeon",
+            "stars": 652
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "remote-swe-agents",
+          "description": "Serverless control plane on Lambda with a dedicated EC2 worker per session, triggered by issue comments, assignments, and PR reviews.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-04T16:05:04Z",
+            "owner": "aws-samples",
+            "repo": "remote-swe-agents",
+            "stars": 241
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Contrabass",
+          "description": "Terminal-first orchestrator for issue-driven agent runs, pulling work from Linear, GitHub Issues, or a local board into git worktrees with TUI, headless, and dashboard modes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-17T05:04:56Z",
+            "owner": "junhoyeo",
+            "repo": "contrabass",
+            "stars": 212
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Factory",
+          "description": "Keeps coding agents working on a repository without making a human orchestrate every step from a terminal, pulling tasks from trusted ticket queues into isolated Codex workspaces.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T20:47:06Z",
+            "owner": "owainlewis",
+            "repo": "factory",
+            "stars": 168
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lalph",
+          "description": "Orchestrator driven by whichever source of issues you point it at.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-08T04:02:43Z",
+            "owner": "tim-smart",
+            "repo": "lalph",
+            "stars": 129
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sortie",
+          "description": "Turns tracker tickets into agent sessions. Agent-agnostic and tracker-agnostic, as a single Go binary with SQLite persistence.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T06:51:49Z",
+            "owner": "sortie-ai",
+            "repo": "sortie",
+            "stars": 122
+          }
+        }
+      ],
+      "title": "Autonomous Task Runners"
+    },
+    {
+      "description": "Control planes, coordination protocols, harness adapters, and runtimes — the layer beneath your agents rather than the surface you work in.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Archon",
+          "description": "Harness builder for deterministic AI coding workflows, combining agent steps with scripts, validation gates, approvals, and isolated git worktrees. Claude Code, Codex, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T14:07:46Z",
+            "owner": "coleam00",
+            "repo": "Archon",
+            "stars": 23173
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NemoClaw",
+          "description": "Runs Hermes, LangChain Deep Agents, and OpenClaw inside NVIDIA OpenShell with managed inference.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:22:18Z",
+            "owner": "NVIDIA",
+            "repo": "NemoClaw",
+            "stars": 22141
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "openfang",
+          "description": "Open-source agent operating system.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-02T08:13:12Z",
+            "owner": "RightNow-AI",
+            "repo": "openfang",
+            "stars": 18111
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "omnigent",
+          "description": "Meta-harness running Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, or custom YAML agents against swappable sandbox backends, with policy enforcement.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T07:11:39Z",
+            "owner": "omnigent-ai",
+            "repo": "omnigent",
+            "stars": 8759
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Open Multi-Agent",
+          "description": "TypeScript-native runtime where a coordinator turns a goal into a task DAG and a deterministic scheduler runs specialized agents, with approvals, traces, evaluation, checkpoints, and resume support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T18:44:12Z",
+            "owner": "open-multi-agent",
+            "repo": "open-multi-agent",
+            "stars": 6771
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sandbox-agent",
+          "description": "Daemon, HTTP/SSE API, and TypeScript SDK for driving six coding agents inside E2B, Daytona, Modal, Cloudflare Containers, or Docker.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-19T06:05:41Z",
+            "owner": "rivet-dev",
+            "repo": "sandbox-agent",
+            "stars": 1533
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agentlas OS",
+          "description": "Keeps specialist agents in a hub and spins up a temporary orchestrator per task, with A2A routing and governed memory gates. Formerly Hephaestus.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T14:24:26Z",
+            "owner": "agentlas-ai",
+            "repo": "Agentlas-OS",
+            "stars": 1157
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Claudexor",
+          "description": "Routes one coding thread across harnesses with quota-aware rotation between subscription profiles, Best-of-N runs, and cross-family review.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T07:55:39Z",
+            "owner": "razzant",
+            "repo": "claudexor",
+            "stars": 405
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "guild",
+          "description": "Shared context, memory, and task coordination as a single Go binary over local SQLite with hybrid keyword and semantic search.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T17:45:28Z",
+            "owner": "mathomhaus",
+            "repo": "guild",
+            "stars": 312
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "handoff",
+          "description": "Delegates a task to DeepSeek, Codex, or Claude from inside your current Claude Code or Codex session, returning the result automatically.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-02T05:22:56Z",
+            "owner": "dazuiba",
+            "repo": "handoff",
+            "stars": 83
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sub-agents-skills",
+          "description": "Portable Markdown definitions that route a task to a chosen backend, model, effort level, and permission set.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-07T13:33:40Z",
+            "owner": "shinpr",
+            "repo": "sub-agents-skills",
+            "stars": 76
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agenttier",
+          "description": "Kubernetes runtime giving each agent its own Pod and PVC sandbox behind a default-deny NetworkPolicy, with a streaming SSE invoke API.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-10T03:17:04Z",
+            "owner": "agenttier",
+            "repo": "agenttier",
+            "stars": 72
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "neuralyzer",
+          "description": "Lets an agent wipe its own session context and re-run the first message, making Ralph loops easier to engineer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-07T09:18:33Z",
+            "owner": "gintasz",
+            "repo": "neuralyzer",
+            "stars": 38
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Crewplane",
+          "description": "CLI-first control plane that turns one-off coding-agent calls into reviewable Markdown workflows spanning Claude Code, Codex, Gemini CLI, or Copilot CLI. Explicit artifact handoffs keep execution inspectable on disk, while validated completed nodes let failed workflows resume instead of starting over.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T08:52:01Z",
+            "owner": "crewplaneai",
+            "repo": "crewplane",
+            "stars": 31
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codecast",
+          "description": "Watches your real local sessions and surfaces them in a live triage inbox, keeping a searchable record with line-level agent attribution. Claude Code, Codex, Cursor, Gemini.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T00:55:46Z",
+            "owner": "codecast-sh",
+            "repo": "codecast",
+            "stars": 23
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-runbook",
+          "description": "Compiles YAML runbooks with loops, branching, and parallelism into SKILL.md files for Claude Code and Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-15T08:37:36Z",
+            "owner": "KnoxOps",
+            "repo": "agent-runbook",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LionClaw",
+          "description": "Local control plane running coding agents as durable, auditable workers with explicit state, skills, and checkpoints.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-06T16:39:42Z",
+            "owner": "moshthepitt",
+            "repo": "lionclaw",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "skillfold",
+          "description": "Declares skills in YAML and pins exact revisions in a lockfile so installs are reproducible across Claude Code and Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-03T10:59:15Z",
+            "owner": "byronxlg",
+            "repo": "skillfold",
+            "stars": 12
+          }
+        }
+      ],
+      "title": "Agent Infrastructure & Primitives"
+    },
+    {
+      "description": "Always-on agents you reach over chat or a desktop app. They remember across sessions, run on their own schedule, and hand work off to tools and other agents — coding agents included, though the work isn't limited to code.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "openclaw",
+          "description": "Your own personal AI assistant, on any OS and any platform.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:20:05Z",
+            "owner": "openclaw",
+            "repo": "openclaw",
+            "stars": 386125
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hermes-agent",
+          "description": "Self-improving harness with persistent cross-session memory and auto-generated skill documents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T07:22:09Z",
+            "owner": "NousResearch",
+            "repo": "hermes-agent",
+            "stars": 229753
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nanobot",
+          "description": "Ultra-lightweight self-hosted assistant in Python with WebUI, tools, memory, MCP, and multi-agent workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T03:05:05Z",
+            "owner": "HKUDS",
+            "repo": "nanobot",
+            "stars": 46917
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "QwenPaw",
+          "description": "Personal assistant that deploys to your own machine or the cloud and plugs into multiple chat apps. Formerly CoPaw.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T06:13:26Z",
+            "owner": "agentscope-ai",
+            "repo": "QwenPaw",
+            "stars": 33744
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zeroclaw",
+          "description": "Fast, small, fully autonomous assistant infrastructure in Rust, deployable anywhere.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T07:12:17Z",
+            "owner": "zeroclaw-labs",
+            "repo": "zeroclaw",
+            "stars": 32566
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nanoclaw",
+          "description": "Lightweight OpenClaw alternative running in containers, connecting to WhatsApp, Telegram, Slack, Discord, and Gmail.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T16:39:45Z",
+            "owner": "nanocoai",
+            "repo": "nanoclaw",
+            "stars": 30502
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "picoclaw",
+          "description": "Tiny and fast assistant deployable anywhere.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-07T18:18:20Z",
+            "owner": "sipeed",
+            "repo": "picoclaw",
+            "stars": 29854
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "leon",
+          "description": "Long-running open-source personal assistant with voice and text interfaces.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T01:01:13Z",
+            "owner": "leon-ai",
+            "repo": "leon",
+            "stars": 17430
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rowboat",
+          "description": "Open-source AI coworker with memory.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:07:58Z",
+            "owner": "rowboatlabs",
+            "repo": "rowboat",
+            "stars": 17196
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ironclaw",
+          "description": "Agent OS in Rust focused on privacy, security, and extensibility.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T06:40:28Z",
+            "owner": "nearai",
+            "repo": "ironclaw",
+            "stars": 12605
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Coworker",
+          "description": "Open source AI coworker that lives on your desktop. Formerly accomplish.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-15T08:06:51Z",
+            "owner": "accomplish-ai",
+            "repo": "coworker",
+            "stars": 10951
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nullclaw",
+          "description": "Fully autonomous assistant infrastructure written in Zig.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-07-19T04:20:06Z",
+            "owner": "nullclaw",
+            "repo": "nullclaw",
+            "stars": 8024
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cloudflare OS",
+          "description": "Self-hostable \"company OS\" on Cloudflare Workers: a chat UI where agents preloaded with your company context do tasks, build sandboxed apps, and stay inside a Gatekeepers guardrail framework.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T02:35:57Z",
+            "owner": "cloudflare",
+            "repo": "cloudflare-os",
+            "stars": 7970
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lobsterai",
+          "description": "Desktop-grade agent for data analysis, slides, docs, and web research.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:18:32Z",
+            "owner": "netease-youdao",
+            "repo": "LobsterAI",
+            "stars": 5881
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MetaClaw",
+          "description": "Assistant that learns and evolves from conversation alone.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-07T04:57:05Z",
+            "owner": "aiming-lab",
+            "repo": "MetaClaw",
+            "stars": 3520
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zclaw",
+          "description": "Complete personal assistant in 888 KiB, running on an ESP32 with GPIO, cron, and custom tools.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-17T03:43:36Z",
+            "owner": "tnm",
+            "repo": "zclaw",
+            "stars": 2203
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "denchclaw",
+          "description": "Managed OpenClaw framework aimed at CRM, sales automation, and outreach.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-11T07:46:53Z",
+            "owner": "DenchHQ",
+            "repo": "DenchClaw",
+            "stars": 1642
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ouroboros",
+          "description": "General-purpose agent with durable identity and memory, reviewed self-modification, multi-agent coordination, and desktop and headless interfaces.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T05:01:17Z",
+            "owner": "razzant",
+            "repo": "ouroboros",
+            "stars": 1127
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rho",
+          "description": "Stays running, remembers across sessions, and checks in on its own. macOS, Linux, Android.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-26T20:53:54Z",
+            "owner": "mikeyobrien",
+            "repo": "rho",
+            "stars": 369
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "iva",
+          "description": "Telegram assistant that turns your messages, voice notes and photos into an Obsidian-compatible markdown vault it remembers across sessions. Crons, skills, MCP and Google Workspace from an in-chat menu. Self-hosted in one command, MIT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:06:06Z",
+            "owner": "smixs",
+            "repo": "iva",
+            "stars": 139
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lemon",
+          "description": "Local-first assistant and coding agent runtime.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2026-08-11T19:15:18Z",
+            "owner": "z80dev",
+            "repo": "lemon",
+            "stars": 129
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "automata",
+          "description": "Matrix-native workspace where Temporal-backed durable workflows survive restarts and keep long tasks moving.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2026-05-05T17:29:24Z",
+            "owner": "sentientwave",
+            "repo": "automata",
+            "stars": 110
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ghostclaw",
+          "description": "An AI that lives on your computer and does things for you.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-03T13:22:38Z",
+            "owner": "b1rdmania",
+            "repo": "ghostclaw",
+            "stars": 90
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "assistant",
+          "description": "Panel-based assistant whose plugins share one workspace of notes, lists, and objects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-03T00:36:40Z",
+            "owner": "kcosr",
+            "repo": "assistant",
+            "stars": 89
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hivekeep",
+          "description": "Self-hosted team of specialized agents with persistent memory that delegate and build their own tools and mini-apps. Telegram, Slack, Discord, Matrix. Single container, MIT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T07:50:55Z",
+            "owner": "MarlBurroW",
+            "repo": "hivekeep",
+            "stars": 42
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lucinate",
+          "description": "Terminal-native chat client for OpenClaw, Hermes, Ollama, and OpenAI-compatible providers, with cron management and session browsing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-02T23:28:52Z",
+            "owner": "lucinate-ai",
+            "repo": "lucinate",
+            "stars": 11
+          }
+        }
+      ],
+      "title": "Personal Assistants"
+    },
+    {
+      "description": "A watchlist of projects without a push in the last few months (checked 2026-07-28). They stay here until they're active again, then move back up.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "vibe-kanban",
+          "description": "Kanban board for managing AI coding agents. (last commit 2026-04)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-04-24T09:17:34Z",
+            "owner": "BloopAI",
+            "repo": "vibe-kanban",
+            "stars": 27765
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "1code",
+          "description": "Orchestration layer for Claude Code and Codex. (last commit 2026-03; archived)",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "TypeScript",
+            "last_commit": "2026-03-06T21:10:12Z",
+            "owner": "21st-dev",
+            "repo": "1code",
+            "stars": 5617
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CodexMonitor",
+          "description": "Orchestrate multiple Codex agents across local workspaces. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-26T07:01:43Z",
+            "owner": "Dimillian",
+            "repo": "CodexMonitor",
+            "stars": 4229
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ralphy",
+          "description": "Bash script that loops Claude Code, Codex, OpenCode, Cursor, Qwen, or Droid until the task is done. (last commit 2026-02)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-05T16:28:20Z",
+            "owner": "michaelshimeles",
+            "repo": "ralphy",
+            "stars": 2958
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "antfarm",
+          "description": "Build your agent team in OpenClaw with one command. (last commit 2026-02)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-26T17:39:07Z",
+            "owner": "snarktank",
+            "repo": "antfarm",
+            "stars": 2496
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cashclaw",
+          "description": "An autonomous agent that takes work, does work, gets paid, and gets better at it. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-14T01:41:27Z",
+            "owner": "moltlaunch",
+            "repo": "cashclaw",
+            "stars": 1095
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "clawe",
+          "description": "Multi-agent coordination system: think Trello for OpenClaw agents. (last commit 2026-02)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-23T13:58:20Z",
+            "owner": "getclawe",
+            "repo": "clawe",
+            "stars": 747
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "opengoat",
+          "description": "Build organizations of OpenClaw agents coordinating across Codex, Claude Code, Cursor, and OpenCode. (last commit 2026-04)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-12T18:44:11Z",
+            "owner": "marian2js",
+            "repo": "opengoat",
+            "stars": 391
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ariana",
+          "description": "The IDE of the future. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-28T19:47:15Z",
+            "owner": "ariana-dot-dev",
+            "repo": "ariana",
+            "stars": 354
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "subtask",
+          "description": "Claude Skill that runs your tasks through subagents in git worktrees. (last commit 2026-04)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-04-27T21:03:04Z",
+            "owner": "zippoxer",
+            "repo": "subtask",
+            "stars": 338
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lettabot",
+          "description": "Personal assistant that remembers everything. (last commit 2026-05; archived, replaced by Letta Code)",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "TypeScript",
+            "last_commit": "2026-05-25T03:10:15Z",
+            "owner": "letta-ai",
+            "repo": "lettabot",
+            "stars": 327
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mercury",
+          "description": "Personal AI assistant that lives where you chat. (last commit 2026-03; archived)",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "TypeScript",
+            "last_commit": "2026-03-29T09:09:58Z",
+            "owner": "Michaelliv",
+            "repo": "mercury",
+            "stars": 145
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "babyagi3",
+          "description": "A minimal AI agent you configure once, then run through natural language. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-07T03:59:11Z",
+            "owner": "yoheinakajima",
+            "repo": "babyagi3",
+            "stars": 129
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wreckit",
+          "description": "Run the Ralph Wiggum loop over your roadmap. (last commit 2026-04)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2026-04-14T23:14:22Z",
+            "owner": "mikehostetler",
+            "repo": "wreckit",
+            "stars": 129
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gnap",
+          "description": "Git-native agent protocol coordinating agents through a shared repo as a task board, with no orchestrator process. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-03-17T21:12:21Z",
+            "owner": "farol-team",
+            "repo": "gnap",
+            "stars": 78
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swarm-protocol",
+          "description": "Headless coordination over MCP: claim work, detect file conflicts, heartbeat, and hand off across sessions. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-15T08:43:51Z",
+            "owner": "phuryn",
+            "repo": "swarm-protocol",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wit",
+          "description": "Locks individual functions rather than files via Tree-sitter, warning agents of conflicts before they write. (last commit 2026-03)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-27T01:46:02Z",
+            "owner": "amaar-mc",
+            "repo": "wit",
+            "stars": 46
+          }
+        }
+      ],
+      "title": "Resting"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T07:23:04.785Z",
+    "original_repository": "andyrewlee/awesome-agent-orchestrators",
+    "original_repository_sha": "a02f1da525d2f5f47ca8fce8f616c07c826c9bd6",
+    "enhanced_repository": "enhansome/enhansome-agent-orchestrators",
+    "enhanced_repository_description": null,
+    "title": "Awesome Agent Orchestrators with stars"
+  }
+}
